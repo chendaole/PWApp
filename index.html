@@ -30,18 +30,15 @@
           <!-- Top row, always visible -->
           <div class="mdl-layout__header-row">
               <!-- Title -->
-              <span class="mdl-layout-title">Title</span>
+              <span class="mdl-layout-title">PWApp</span>
+              <span class="mdl-layout-spacer"></span>
+              <button class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="butAdd">
+                <i class="material-icons">add</i>
+              </button>
           </div>
           <!-- Bottom row, not visible on scroll -->
-          <div class="mdl-layout__header-row header">
-              <div class="mdl-layout-spacer"></div>
+          <div class="mdl-layout__header-row  header-content">
               <!-- Navigation -->
-              <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="butAdd">
-                  <i class="material-icons">add</i>
-              </button>
-              <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="butRefresh">
-                  <i class="material-icons">add</i>
-              </button>
           </div>
       </header>
       <div class="mdl-layout__drawer">
@@ -53,7 +50,11 @@
               <a class="mdl-navigation__link" href="">Link</a>
           </nav>
       </div>
+
     <main class="main mdl-layout__content">
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="butRefresh">
+        <i class="material-icons">add</i>
+      </button>
       <div class="card cardTemplate weather-forecast" hidden>
         <div class="city-key" hidden></div>
         <div class="card-last-updated" hidden></div>
