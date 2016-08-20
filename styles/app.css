@@ -1,0 +1,12 @@
+.demo-layout-transparent {
+    background: orange center / cover;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    color: white;
+}
+
+.headerScroll {
+    height: 100px;
+}
