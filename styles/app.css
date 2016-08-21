@@ -14,3 +14,14 @@
 .header-content {
     height: 80px;
 }
+
+.user-card {
+    width: auto;
+    height: auto;
+}
+
+.user-card > .user-card_title {
+    color: #fff;
+    background: url("../images/dog.png") bottom right 15% no-repeat #46B6AC;
+    height: 133px;
+}

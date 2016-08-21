@@ -78,11 +78,11 @@
 
     var card = app.visibleCards[data.key];
     if (!card) {
-      card = app.cardTemplate.cloneNode(true);
-      card.classList.remove('cardTemplate');
+      card = app.cardTemplate.cloneNode(true);//复制卡片模板
+      card.classList.remove('cardTemplate');//移除模板的class属性
       card.querySelector('.location').textContent = data.label;
       card.removeAttribute('hidden');
-      app.container.appendChild(card);
+      app.container.appendChild(card);//插入复制的模板
       app.visibleCards[data.key] = card;
     }
 
