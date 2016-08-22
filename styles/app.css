@@ -7,6 +7,11 @@
     color: white;
 }
 
+.user-card_login {
+    height: 160px;
+    width: auto;
+}
+
 .headerScroll {
     height: 100px;
 }
