@@ -79,7 +79,7 @@
     var card = app.visibleCards[data.key];
     if (!card) {
       card = app.cardTemplate.cloneNode(true);//复制卡片模板
-      card.classList.remove('cardTemplate');//移除模板的class属性
+      card.classList.remove('user-card-template');//移除模板的class属性
       card.querySelector('.location').textContent = data.label;
       card.removeAttribute('hidden');
       app.container.appendChild(card);//插入复制的模板
@@ -112,7 +112,7 @@
     card.querySelector('.current .wind .value').textContent =
       Math.round(wind.speed);
     card.querySelector('.current .wind .direction').textContent = wind.direction;
-    var nextDays = card.querySelectorAll('.future .oneday');
+    var nextDays = card.querySelectorAll('.future .oneDay');
     var today = new Date();
     today = today.getDay();
     for (var i = 0; i < 7; i++) {

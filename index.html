@@ -63,12 +63,66 @@
       <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="butRefresh">
         <i class="material-icons">add</i>
       </button>
-      <!--mal-cards-->
-      <div class="mdl-card mdl-shadow--2dp user-card">
+      <!--mdl-cards-->
+      <div class="mdl-card mdl-shadow--2dp user-card user-card-template" hidden>
         <div class="mdl-card__title user-card_title">
-           <h2 class="mdl-card__title-text">pwapp</h2>
+           <h2 class="mdl-card__title-text city-key">pwapp</h2>
+           <h1 class="card-last-updated"></h1>
         </div>
-        <div class="mdl-card__supporting-text">
+        <div class="mdl-card__supporting-text ">
+          <!--other data-->
+          <div class="description"></div>
+          <div class="date"></div>
+          <div class="current icon"></div>
+          <div class="current temperature value"></div>
+          <div class="current sunrise"></div>
+          <div class="current humidity"></div>
+          <div class="current wind value"></div>
+          <div class="current wind direction"></div>
+          <div class="future">
+            <div class="oneDay">
+              <div class="date"></div>
+              <div class="icon"></div>
+              <div class="temp-high value"></div>
+              <div class="temp-low value"></div>
+            </div>
+            <div class="oneDay">
+              <div class="date"></div>
+              <div class="icon"></div>
+              <div class="temp-high value"></div>
+              <div class="temp-low value"></div>
+            </div>
+            <div class="oneDay">
+              <div class="date"></div>
+              <div class="icon"></div>
+              <div class="temp-high value"></div>
+              <div class="temp-low value"></div>
+            </div>
+            <div class="oneDay">
+              <div class="date"></div>
+              <div class="icon"></div>
+              <div class="temp-high value"></div>
+              <div class="temp-low value"></div>
+            </div>
+            <div class="oneDay">
+              <div class="date"></div>
+              <div class="icon"></div>
+              <div class="temp-high value"></div>
+              <div class="temp-low value"></div>
+            </div>
+            <div class="oneDay">
+              <div class="date"></div>
+              <div class="icon"></div>
+              <div class="temp-high value"></div>
+              <div class="temp-low value"></div>
+            </div>
+            <div class="oneDay">
+              <div class="date"></div>
+              <div class="icon"></div>
+              <div class="temp-high value"></div>
+              <div class="temp-low value"></div>
+            </div>
+          </div>
           this myPWApp-demo : chendaole
         </div>
         <div class="mdl-card__actions mdl-card--border">
@@ -77,8 +131,8 @@
           </a>
         </div>
       </div>
-
-      <div class="card cardTemplate weather-forecast" hidden>
+      <!--old-card-template-->
+      <!--<div class="card cardTemplate weather-forecast" hidden>
         <div class="city-key" hidden></div>
         <div class="card-last-updated" hidden></div>
         <div class="location"></div>
@@ -174,7 +228,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </main>
   </div>
 
